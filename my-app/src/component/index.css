@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.Content{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+.IntroText{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    top: 400px;
+    
+}
+.IntroText .word{
+    display: flex;
+    margin: 0 3px;
+   
+}
+.IntroText .word .letter{
+    margin: 0 2px;
+    opacity: 1;
+    
+}
+
+.Enter{
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.text-black{
+
+}
+.text-red{
+    color: #f00;
+    display: none;
+}
+
+.Enter span{
+    margin: 0 3px;
+}
+.Enter-text{
+    margin-bottom: 10px;
+}
+.EnterIcon1{
+    position: absolute;
+    margin-top: 15px;
+    width:1px ;
+    height: 30px;
+    background-color: #000;
+}
+
+.EnterIcon2{
+    position: absolute;
+    top:60px;
+    left: 25px;
+    margin-top: 45px;
+    width:16px ;
+    height: 1px;
+    background-color: #000;
+}
+.footer{
+    display: flex;
+    position: fixed;  
+    bottom: 50px;
+    left: 50px;
+    /* background-color: #00f; */
+
+}
+
+.footer ul{
+    display: flex;
+}
+.footer ul li{
+    display: flex;
+    margin: 0 8px;
+}
+.footer ul li:last-child{
+    margin-left: 30px;
+}
+.footer ul li:hover{
+    display: flex;
+    margin: 0 8px;
+}

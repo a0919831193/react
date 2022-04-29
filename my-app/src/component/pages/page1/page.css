@@ -1,0 +1,40 @@
+.content{
+    width: 100%;
+}
+.page1-text{
+    font-size: 60px;
+    padding: 60px;
+   }
+   
+.text-flex{
+    display: flex;
+    
+    
+}
+.page1-text .word{
+    margin: 50px 30px;
+
+}
+
+.p1-text-letter{
+    color:#f00;
+    font-size: 6px;
+}
+  
+.text-flex{
+    font-size: 60px;
+}
+.text-flex div{
+    margin: 30px 60px;
+}
+.progress{
+    position: absolute;
+    left: 50%;
+    bottom:80px;
+    transform: translateX(-50%);  
+    width: 80%;
+    height: 6px;
+    background: #000;
+    border-radius: 3px;
+    overflow: hidden;
+}
